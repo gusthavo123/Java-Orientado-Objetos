@@ -3,7 +3,7 @@ package Atividade2;
 public class Executor {
 	   public static void main(String[] args) throws InterruptedException {
 		    Thread t = new Thread();
-            //Nome, Rua, Endereço, Número da Casa, Salário, Residentes e Senha respectivamente
+                //Nome, Rua, Endereço, Número da Casa, Salário, Residentes e Senha respectivamente
 	        Pessoa pessoa1 = new Pessoa("Gustavo", "Rua UniFil", 150, 35000.50, 5, 123456);
 	        System.out.println("Seus dados pessoais abaixo: ");
 	        Thread.sleep(1000);
