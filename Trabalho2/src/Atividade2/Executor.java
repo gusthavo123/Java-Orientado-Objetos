@@ -2,7 +2,7 @@ package Atividade2;
 
 public class Executor {
 	   public static void main(String[] args) throws InterruptedException {
-		    Thread t = new Thread();
+		 Thread t = new Thread();
                 //Nome, Rua, Endereço, Número da Casa, Salário, Residentes e Senha respectivamente
 	        Pessoa pessoa1 = new Pessoa("Gustavo", "Rua UniFil", 150, 35000.50, 5, 123456);
 	        System.out.println("Seus dados pessoais abaixo: ");
@@ -20,6 +20,7 @@ public class Executor {
 	        System.out.println("Residentes: " + pessoa1.getPessoasNaCasa());
 	        Thread.sleep(950); 
 	        System.out.println("Senha: " + pessoa1.getsenha());
+		Thread.sleep(950); 
 	        System.out.println("Finalizado!");
 	        System.out.println("_________________________________");
 	    }
